@@ -24,6 +24,6 @@
 " SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 " The last thing to do when sourced is to run and actually fix up the colors.
-if !has('gui_running') && exists(':CSApprox')
-  CSApprox
-endif
+"if !has('gui_running') && exists(':CSApprox')
+"  CSApprox
+"endif

@@ -121,7 +121,7 @@ filetype plugin indent on " required by Pathogen Plugin Manager
 
 " Theme
 set background=light
-colorscheme Tomorrow-Night
+" colorscheme Tomorrow-Night
 
 " CtrlP
 map <leader>t <C-p>
@@ -344,3 +344,6 @@ fun! SetDiffColors()
 endfun
 autocmd FilterWritePre * call SetDiffColors()
 " }}}
+
+autocmd BufNewFile  *.html 0r ~/.vim-templates/index.html
+autocmd BufNewFile  *Service.js 0r ~/.vim-templates/jsService.js
